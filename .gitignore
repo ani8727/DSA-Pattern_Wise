@@ -1,0 +1,21 @@
+# Executables
+*.exe
+*.out
+
+# VS Code specific
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Build directories
+build/
+Debug/
+Release/
+
+# Object files
+*.o
+*.obj
+
+# Cache files
+*.cache
