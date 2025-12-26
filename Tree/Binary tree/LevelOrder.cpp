@@ -31,14 +31,16 @@ Node* buildTree(vector<int>& nums){
 
         //left child
         if(i<nums.size() && nums[i]!=-1){
-            curr->left=new Node(nums[i++]);
+            curr->left=new Node(nums[i]);
             q.push(curr->left);
         }
+        i++;
         //right child
         if(i<nums.size() && nums[i] != -1){
-            curr->right=new Node(nums[i++]);
+            curr->right=new Node(nums[i]);
             q.push(curr->right);
         }
+        i++;
     }
     return root;
 }
