@@ -45,7 +45,6 @@ void traversal(Node* root){
     }
 }
 
-
 int main(){
     int n;
     cin>>n;
