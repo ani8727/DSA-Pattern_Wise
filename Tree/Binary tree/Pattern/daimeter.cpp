@@ -84,7 +84,7 @@ int height2(Node* root){
 }
 int diameter2(Node* root){
     ans=0;
-    height2(root);
+    int height=height2(root);
     return ans;
 }
 
